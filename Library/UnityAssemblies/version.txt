@@ -1,4 +1,4 @@
-2017.1.0f3:3.1.0.0
+2017.1.0f3:3.3.0.2
 Android
 D:/Programy/Unity 2017/Editor/Data/Managed/UnityEditor.dll
 D:/Programy/Unity 2017/Editor/Data/Managed/UnityEngine.dll

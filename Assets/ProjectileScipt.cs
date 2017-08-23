@@ -6,7 +6,6 @@ public class ProjectileScipt : MonoBehaviour {
 
     public float speed = 10f;
 
-    private bool active = false;
     private int playerLayer = 0;
 
 	// Use this for initialization
@@ -22,16 +21,12 @@ public class ProjectileScipt : MonoBehaviour {
 
     void MoveForward()
     {
-        if (active)
-        {
-            transform.position += transform.forward * speed * Time.deltaTime;
-        }
+        transform.position += transform.forward * speed * Time.deltaTime;
     }
 
     public void Shoot()
     {
         gameObject.SetActive(true);
-        active = true;
     }
 
     public void Shoot(Transform parent)
@@ -43,7 +38,6 @@ public class ProjectileScipt : MonoBehaviour {
 
     public void DestroyProjectile()
     {
-        active = false;
         this.gameObject.SetActive(false);
     }
 
@@ -52,11 +46,4 @@ public class ProjectileScipt : MonoBehaviour {
         if(collision.collider.gameObject.layer != playerLayer)
             DestroyProjectile();
     }
-
-    private void OnCollisionExit(Collision collision)
-    {
-      
-    }
-
-
 }
