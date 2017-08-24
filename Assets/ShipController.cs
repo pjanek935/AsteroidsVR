@@ -61,7 +61,7 @@ public class ShipController : MonoBehaviour {
         bulletSpawnLeft.LookAt(pointToLookAt);
         bulletSpawnRight.LookAt(pointToLookAt);
     }
-
+    
     void Shoot()
     {
         if (canShoot && Input.GetButton("Fire1"))
@@ -81,7 +81,20 @@ public class ShipController : MonoBehaviour {
             shootCounter = 0;
             canShoot = true;
         }
-        
+    }
+
+    public void ShootFromClicker()
+    {
+        if (canShoot)
+        {
+            if (shootSide)
+                projectileManager.Shoot(bulletSpawnLeft);
+            else
+                projectileManager.Shoot(bulletSpawnRight);
+            shootSide = !shootSide;
+            canShoot = false;
+            shootCounter = 0;
+        }
     }
 
     void MoveForward()
