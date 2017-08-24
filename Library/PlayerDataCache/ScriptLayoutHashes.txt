@@ -202,6 +202,7 @@ dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.ProjectileScipt
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 5f2ad81aa8994e8fbe25d1e57afe6773 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MagnetSensor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrControllerVisualManager
 3542ab9584c82275ec93ac857f8e8fc2 Assembly-CSharp.dll:.GvrPointerPhysicsRaycaster
 00566559aaf2ba51543e32371603951b Assembly-CSharp-firstpass.dll:UnityStandardAssets.ImageEffects.NoiseAndGrain
@@ -253,4 +254,3 @@ e399fc54e753911801f12ac57c8fc414 Assembly-CSharp.dll:.GVRDemoManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonScript
 f1dced04f168103741226c31e59bf1c5 Assembly-CSharp.dll:.Tab
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GVRSample.AutoPlayVideo
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MagnetSensor
